@@ -58,7 +58,7 @@ footer{
 
 #work.flex-container{
 	align-items: flex-start;
-	justify-content: : center;
+	justify-content: center;
 	align-items: center;
 	flex-direction: column;
 	padding: 50px;
@@ -71,3 +71,12 @@ img{
 i{
 	background-color: whitesmoke;
 }
+
+#imagenes.flex-container{/*alinear en filas las imagenes ordenadas en div dentro de otro div que a su vez está en una section*/
+
+flex-direction: row;
+justify-content: center;
+
+}
+
+
